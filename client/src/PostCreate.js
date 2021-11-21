@@ -8,7 +8,7 @@ const PostCreate = () => {
     event.preventDefault()
 
     await axios
-      .post("http://posts.com/posts", {
+      .post("http://posts.com/posts/create", {
         title,
       })
       .catch((err) => {
